@@ -1,0 +1,27 @@
+PhishingDetectionSystem-Java/
+│
+├── data/
+│   └── phishing_dataset.csv           
+│
+├── models/
+│   └── phishing_model.model           
+│
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── com/phishing/
+│   │           ├── Preprocess.java       
+│   │           ├── TrainModel.java       
+│   │           ├── DetectPhishing.java   
+│   │           ├── Utils.java            
+│   │           └── IDs.java              
+│
+├── .github/
+│   └── PULL_REQUEST_TEMPLATE.md         
+│
+├── rules.md                             
+├── security.md                           
+├── roadmap.md                             
+├── requirements.txt                       
+├── README.md
+└── .gitignore
